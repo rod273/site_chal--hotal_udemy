@@ -3,9 +3,40 @@
     padding: 0;
 }
 
-.topo {
-    width: 980px;
-    height: 200px;
+body {
+    font-family: 'Indie Flower', cursive;
+    background: #fff url(../img/bg.png);
+    margin: 15px;
+}
+
+#container {
+    background: #ede9cc;
     margin: 0 auto;
-    background: url(../img/topo-imagem-principal.png) no-repeat;
+    min-width: 740px;
+}
+
+#topo {
+    position: relative;
+    background: #dcbd87;
+    height: 15.4em;
+    min-height: 250px;
+    max-width: 1180px;
+}
+
+#area-logo {
+   position: absolute;
+   background: url(../img/topo-imagem-principal.png) no-repeat;
+   width: 100%;
+   height: 250px;
+   top: 0;
+   left: 0;
+}
+
+#area-menu {
+   position: absolute;
+   background: url(../img/topo-imagem-lateral.png) no-repeat;
+   width: 450px;
+   height: 250px;
+   top: 0;
+   right: 0;
 }
